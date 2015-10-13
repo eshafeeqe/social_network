@@ -14,6 +14,9 @@ A python package for simulating social network
 2) Install python 2.7.  
 3) Run main.py in python console.  
 
+#Flow Diagram
+![alt tag](https://raw.githubusercontent.com/eshafeeqe/social_network/master/flow_diagram.jpg)
+<br>
 #Few Words about architecture and files
 1) Implemented as a state machine.   
 2) State machine and state definition is defined in the folder StateMachine.    
