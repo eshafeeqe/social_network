@@ -42,7 +42,7 @@ class FriendshipTable(DataHouse):
             cursor.execute(sql)
             self.db_disconnect(connecter, cursor)
             connecter, cursor = self.db_connect()
-            sql = 'DELETE FROM friendship_request WHERE username2 ="' + username2_list[i] +'";'     
+            sql = 'DELETE FROM friendship_request WHERE username1 = "' + username2_list[i] +'" and username2 ="' + username1 +'";'     
             cursor.execute(sql)
             self.db_disconnect(connecter, cursor)
     
